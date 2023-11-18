@@ -30,7 +30,6 @@ const TodoForm = ({ addTodo }) => {
         type="text"
         placeholder="Task"
         value={task}
-        id='one'
         className="subparent"
         onChange={(e) => setTask(e.target.value)}
       />
@@ -38,7 +37,6 @@ const TodoForm = ({ addTodo }) => {
         type="text"
         placeholder="Description"
         value={description}
-        id='two'
         name="Description"
         className="subparent"
         onChange={(e) => setDescription(e.target.value)}
