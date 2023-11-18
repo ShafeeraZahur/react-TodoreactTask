@@ -1,0 +1,172 @@
+.parent{
+    width:100%;
+}
+
+
+.center-heading{
+    text-align: center;
+    color: green;
+}
+.subparent{
+    width:30%;
+    padding: 12px 20px;
+    margin: 4px 0px;
+    border: 1px solid green;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5%;
+}
+.subparent1{
+  width:40%;
+  /* padding: 40px 40px; */
+  margin: 4px 0px;
+  border: 1px solid green;
+  border-radius: 4px;
+  margin-right: 5%;
+  margin-left: 2%;
+  background-color: #24d92a;
+  display: flex;
+  
+  
+}
+.btn{
+    width: 15%;
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+}
+.card-heading{
+    margin-right: 80%;
+    display: inline;
+}
+.filter{
+    background-color: red;
+    padding: 10px 10px;
+    margin: 4px 0px;
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+  
+  
+  .container {
+   
+    text-align: left;
+    
+  }
+
+  .todos-heading{
+    margin-top: 4%;
+  }
+
+  .p1{
+    font-family: "Lucida Console", "Courier New";
+    font-size: 20px;
+    color: black;
+  }
+
+  .buttonRight{
+  background-color: red; /* Green */
+  border: 1px solid green;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  font-size: 16px;
+  cursor: pointer;
+  
+  margin-right: 0%;
+  margin-top: 8%;
+  border-radius: 4px;
+    }
+
+    .buttonLeft{
+  background-color: rgba(0, 128, 0, 0.636);/* Green */
+  border: 1px solid green;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 2%;
+  border-radius: 4px;
+  margin-top: 8%;
+    }
+
+    .buttonspace{
+        margin-left: 10%;
+    }
+
+
+    .todo-card {
+        background-color: #5cb85c; /* Green background color */
+        color: #fff; /* Text color */
+        padding: 20px;
+        border-radius: 8px;
+        position: relative;
+        width: 1200px; /* Adjust width as needed */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 1%;
+
+      }
+
+      .updatebutton{
+        background-color: #04AA6D; /* Green */
+        padding: 8px 16px;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      .todo-name {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+      
+      .todo-description {
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+      
+      .todo-status {
+        font-size: 14px;
+        margin-bottom: 10px;
+      }
+      
+      .button-container {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+      }
+      
+      .edit-button,
+      .delete-button {
+        padding: 8px 16px;
+        margin-left: 5px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      .edit-button {
+        background-color: rgba(0, 128, 0, 0.636);
+        color: white; /* Edit button color */
+      }
+      
+      .delete-button {
+        background-color: red;
+        color: white; /* Delete button color */
+      }
